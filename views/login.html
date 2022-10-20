@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MercadoLiebre</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/login.css" />
+  </head>
+  <body>
+    <header>
+      <div class="top-header">
+        <div class="logo">
+          <img
+            src="images/logo-mercado-liebre.svg"
+            alt="Logo de MercadoLiebre"
+          />
+        </div>
+        <form class="form" action="#" method="GET">
+          <input type="input" placeholder="Buscar productos, marcas y más" />
+          <button class="submit" type="submit">
+            <i class="fa fa-search"></i>
+          </button>
+        </form>
+        <div class="tituhead">
+          <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta
+          de crédito
+        </div>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav-menu1">
+          <li><a href="#">Ofertas</a></li>
+          <li><a href="#">Tiendas Oficiales</a></li>
+          <li><a href="#">Vender</a></li>
+          <li><a href="#">Ayuda</a></li>
+        </ul>
+        <ul class="nav-menu2">
+          <li>
+            <a href="/registro"
+              >Creá tu cuenta <i class="far fa-id-card"></i
+            ></a>
+          </li>
+          <li>
+            <a href="/login">Ingresá <i class="fas fa-sign-in-alt"></i></a>
+          </li>
+          <li>
+            <a href="#">Mis compras <i class="fas fa-shopping-basket"></i></a>
+          </li>
+        </ul>
+      </nav>
+      <div class="burger-menu">
+        <i class="fas fa-bars"></i>
+      </div>
+    </header>
+    <section class="login">
+        <form action="/" class="formu">
+            <input type="text" class="campoForm" id="usname" name="usname" placeholder="Nombre de usuario" minlength="1" /><br />
+            <input type="password" class="campoForm" id="clave" placeholder="Elegí tu contraseña"/><br />
+            <input type="submit" class="campoForm" id="enviar" value="Enviar"/><br />
+        </form>
+    </section>
+    <section class="banner">
+        <img src="images/img-home-banner.jpg" alt="Banner de ofertas" />
+      </section>
+  </body>
+</html>

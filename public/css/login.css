@@ -1,0 +1,319 @@
+*{
+    margin: 0px; 
+    padding: ​0px​;   
+    box-sizing: ​border-box​;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+
+header{
+    display: block;
+    background-color: #EAC926;
+    padding: 10px;
+}
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .tituhead {
+    flex: auto;
+}
+
+.tituhead {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.logo{
+    width: 35%;
+}
+
+.form{
+    display: block;
+    justify-content: start;
+    background-color: #FFF;
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 2px;
+    text-decoration: none;
+}
+
+input {
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+}
+
+.submit{
+    background-color: #FFF;
+    color: #666;
+    text-align: center;
+    font-size: 1em;
+    margin-left: 5px;
+    border: none;
+    background: none;
+}
+
+.navbar{
+    display: flex;
+}
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    display: none;
+    text-decoration: none;
+    color: #000;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+section.banner img{
+    width: 100%;
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 30px;
+    text-decoration: none;
+    align-items: center;
+}
+.campoForm{
+    border-radius: 10px;
+    border-color:rgb(255, 255, 255);
+    border: 0;
+    height: 30px;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section.banner img{
+    width: 100%;
+}
+#enviar{
+    background-color: rgb(0, 68, 170);
+    font-family: Arial;
+}
+#enviar[value=Enviar]{
+    color: #FFF;
+}
+
+
+@media (min-width: 425px){
+
+    .header {
+        max-width: 100%;
+    }
+    .top-header {
+        flex-wrap: nowrap;
+    }
+    .tituloheader {
+        max-width: 30%;
+        font-size: 1em;
+        text-align: right;
+    }
+    .logo {
+        max-width: 20%;
+    }
+    .form {
+        max-width: 50%;
+    }
+    input {
+        width: 115px;
+    }
+
+
+   
+    .navbar{
+        display: block;
+    }
+    header nav{
+        font-size: 12px;
+    }
+    
+    header ul li{
+        list-style-type: none;
+    }
+    
+    header ul li a{
+        display: block;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        color: #000;
+        justify-content: space-around;
+    }
+    
+    div.burger-menu{
+        display: none;
+        text-align: center;
+    }
+    
+header ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.navbar{
+    display: flex;
+    width: 100%;
+}
+.nav-menu1{
+    width: 50%;
+    display: flex;
+    padding-left: 0;
+    justify-content: start;
+    flex-direction: row;
+}
+.nav-menu1 li{
+    margin-left: 10px;
+}
+.nav-menu2 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.nav-menu2 li{
+    margin-left: 10px;
+}
+.formu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 30px;
+    text-decoration: none;
+    align-items: center;
+}
+.campoForm{
+    border-radius: 10px;
+    border-color:rgb(255, 255, 255);
+    border: 0;
+    height: 30px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section.banner img{
+    width: 100%;
+}
+#enviar{
+    background-color: rgb(0, 68, 170);
+    font-family: Arial;
+}
+#enviar[value=Enviar]{
+    color: #FFF;
+}
+
+
+
+@media (min-width: 769px){
+    .top-header {
+        flex-wrap: nowrap;
+    }
+    .tituloheader {
+        max-width: 300px;
+        font-size: 15px;
+        text-align: right;
+    }
+    .logo {
+        max-width: 25%;
+    }
+    .form {
+        width: 350px;
+    }
+    input {
+        width: 305px;
+    }
+    .navbar{
+        display: flex;
+        width: 100%;
+    }
+    .nav-menu1{
+        width: 50%;
+        display: flex;
+        padding-left: 0;
+        justify-content: start;
+        flex-direction: row;
+    }
+    .nav-menu1 li{
+        margin-left: 40px;
+    }
+    .nav-menu2 {
+        width: 50%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .nav-menu2 li{
+        margin-left: 40px;
+    }
+    .formu{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: rgb(235, 235, 235);
+        border: 1px solid #000;
+        outline: none;
+        color: #666;
+        padding: 30px;
+        text-decoration: none;
+        align-items: center;
+    }
+    .campoForm{
+        border-radius: 10px;
+        border-color:rgb(255, 255, 255);
+        border: 0;
+        height: 30px;
+        width: 600px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    section.banner img{
+        width: 100%;
+    }
+    #enviar{
+        background-color: rgb(0, 68, 170);
+        font-family: Arial;
+    }
+    #enviar[value=Enviar]{
+        color: #FFF;
+    }
+}
+
+}

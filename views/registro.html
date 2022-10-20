@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/registro.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+    />
+    <title>MercadoLiebre</title>
+  </head>
+  <body>
+    <form class="formss">
+      <input type="text" class="campoForm" id="nomYap" name="nombre" placeholder="Nombre y Apellido" minlength="1"/><br />
+      <input type="text" class="campoForm" id="usname" name="usname" placeholder="Nombre de usuario" minlength="1" /><br />
+      <input type="email" class="campoForm" id="email" name="email" placeholder="E-mail" /><br />
+      <label for="fechaNac" id="fechaNac"><strong>Fecha de nacimiento:</strong></label>
+      <input type="date" class="campoForm" id="fechaNac" name="fechaNac" /><br />
+      <input type="text" class="campoForm" id="domicilio" name="domicilio" placeholder="Domicilio"/><br />
+      <div id="perfil">
+      <label for="perfil"><strong>Perfil del usuario</strong></label><br />
+      <label for="comprador" class="per">Comprador</label>
+      <input type="radio" id="perf" class="per"name="perfil" id="comprador" value="comprador" />
+      <label for="vendedor" class="per">Vendedor</label>
+      <input type="radio" id="perf" class="per" name="perfil" value="vendedor" /><br />
+    </div>
+      <label for="intereses">Intereses</label><br />
+      <input type="checkbox" id="electro" name="intereses" value="electro" />
+      <label for="electro">Electro</label><br />
+      <input type="checkbox" id="moda" name="intereses" value="moda" />
+      <label for="moda">Moda</label><br />
+      <input type="checkbox" id="hogar" name="intereses" value="hogar" />
+      <label for="hogar">Hogar</label><br />
+      <input
+        type="checkbox"
+        id="jugueteria"
+        name="intereses"
+        value="jugueteria"
+      />
+      <label for="jugueteria">Jugueteria</label><br />
+      <input type="checkbox" id="vida" name="intereses" value="vida" />
+      <label for="vida">Vida Sana</label><br />
+    </form>
+  </body>
+</html>

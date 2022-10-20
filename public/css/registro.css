@@ -1,0 +1,45 @@
+*{
+    margin: 0px; 
+    padding: ​0px​;   
+    box-sizing: ​border-box​;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #ebebeb;
+}
+.formss{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid #000;
+    outline: none;
+    color: #666;
+    padding: 30px;
+    text-decoration: none;
+   
+}
+.campoForm{
+    border-radius: 10px;
+    border-color:rgb(255, 255, 255);
+    border: 0;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.formss, #usname{
+    margin-top: 20px;
+}
+.formss #email{
+    margin-top: 20px;
+}
+.formss #perfil{
+    display: flex;
+    flex-direction: column;
+}
+.formss #perfil .per{
+    width: 50%;
+}
+.formss #perfil #perf{
+    justify-content: end;
+}
+
