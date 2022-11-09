@@ -1,18 +1,78 @@
 *{
     margin: 0px; 
-    padding: ​0px​;   
-    box-sizing: ​border-box​;
+    
 }
+header{
+    display: block;
+    background-color: #EAC926;
+    padding: 10px;
+}
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .tituhead {
+    flex: auto;
+}
+
+.tituhead {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.logo{
+    width: 35%;
+}
+.navbar{
+    display: flex;
+}
+header nav{
+    font-size: 12px;
+}
+
+header ul li{
+    list-style-type: none;
+}
+
+header ul li a{
+    display: none;
+    text-decoration: none;
+    color: #000;
+}
+
+div.burger-menu{
+    text-align: center;
+}
+
+div.burger-menu i{
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    margin: 10px 0px 20px 0px;
+    padding: 10px;
+    width: 40px;
+}
+section.banner img{
+    width: 100%;}
 body{
     font-family: 'Roboto', sans-serif;
     background-color: #ebebeb;
 }
-.formss{
+.forma{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     background-color: rgb(235, 235, 235);
-    border: 1px solid #000;
+    border: 0px solid #000;
     outline: none;
     color: #666;
     padding: 30px;
@@ -26,20 +86,19 @@ body{
     height: 40px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.formss, #usname{
-    margin-top: 20px;
+.forma, #usname{
+    margin-top: 0px;
 }
-.formss #email{
-    margin-top: 20px;
+.forma #email{
+    margin-top: 0px;
 }
-.formss #perfil{
+.forma #perfil{
     display: flex;
     flex-direction: column;
 }
-.formss #perfil .per{
-    width: 50%;
+.forma #perfil .per{
+    width: 30%;
 }
-.formss #perfil #perf{
+.forma #perfil #perf{
     justify-content: end;
 }
-
